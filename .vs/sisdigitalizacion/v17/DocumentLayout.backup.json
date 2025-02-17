@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\controllers\\actacompromisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:controllers\\actacompromisocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\model\\evaluacionpractica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:model\\evaluacionpractica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\model\\informetutorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:model\\informetutorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\data\\evaluacionpracticarepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:data\\evaluacionpracticarepositorycs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\controllers\\informeactividadespracticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:controllers\\informeactividadespracticascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\model\\cronoactividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:model\\cronoactividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\data\\cronoactividadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:data\\cronoactividadesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\controllers\\cronoactividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:controllers\\cronoactividadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\data\\informeactividadespracticasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:data\\informeactividadespracticasrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\model\\informeactividadespracticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:model\\informeactividadespracticas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|c:\\users\\marlo\\onedrive\\documentos\\ing web\\sisdigitalizacion\\model\\informefinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22EFF76-59B1-4BF1-90B4-FD160D11C06F}|sisdigitalizacion.csproj|solutionrelative:model\\informefinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActaCompromisoController.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\ActaCompromisoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActaCompromisoController.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\ActaCompromisoController.cs",
+              "RelativeToolTip": "Controllers\\ActaCompromisoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T20:27:19.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EvaluacionPracticaRepositorycs.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\EvaluacionPracticaRepositorycs.cs",
+              "RelativeDocumentMoniker": "Data\\EvaluacionPracticaRepositorycs.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\EvaluacionPracticaRepositorycs.cs",
+              "RelativeToolTip": "Data\\EvaluacionPracticaRepositorycs.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwBsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T15:36:30.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CronoActividades.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\CronoActividades.cs",
+              "RelativeDocumentMoniker": "Model\\CronoActividades.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\CronoActividades.cs",
+              "RelativeToolTip": "Model\\CronoActividades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T03:20:05.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CronoActividadesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\CronoActividadesRepository.cs",
+              "RelativeDocumentMoniker": "Data\\CronoActividadesRepository.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\CronoActividadesRepository.cs",
+              "RelativeToolTip": "Data\\CronoActividadesRepository.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAADwv+YAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T03:17:18.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CronoActividadesController.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\CronoActividadesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CronoActividadesController.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\CronoActividadesController.cs",
+              "RelativeToolTip": "Controllers\\CronoActividadesController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T03:17:09.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T14:34:17.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InformeTutorias.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeTutorias.cs",
+              "RelativeDocumentMoniker": "Model\\InformeTutorias.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeTutorias.cs",
+              "RelativeToolTip": "Model\\InformeTutorias.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-09T17:38:09.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EvaluacionPractica.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\EvaluacionPractica.cs",
+              "RelativeDocumentMoniker": "Model\\EvaluacionPractica.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\EvaluacionPractica.cs",
+              "RelativeToolTip": "Model\\EvaluacionPractica.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:51:41.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADEAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T00:50:36.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InformeActividadesPracticasController.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\InformeActividadesPracticasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InformeActividadesPracticasController.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Controllers\\InformeActividadesPracticasController.cs",
+              "RelativeToolTip": "Controllers\\InformeActividadesPracticasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:52:35.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InformeActividadesPracticasRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\InformeActividadesPracticasRepository.cs",
+              "RelativeDocumentMoniker": "Data\\InformeActividadesPracticasRepository.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Data\\InformeActividadesPracticasRepository.cs",
+              "RelativeToolTip": "Data\\InformeActividadesPracticasRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:52:29.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InformeActividadesPracticas.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeActividadesPracticas.cs",
+              "RelativeDocumentMoniker": "Model\\InformeActividadesPracticas.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeActividadesPracticas.cs",
+              "RelativeToolTip": "Model\\InformeActividadesPracticas.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAA6wEoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:51:57.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InformeFinal.cs",
+              "DocumentMoniker": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeFinal.cs",
+              "RelativeDocumentMoniker": "Model\\InformeFinal.cs",
+              "ToolTip": "C:\\Users\\marlo\\OneDrive\\Documentos\\ing web\\sisdigitalizacion\\Model\\InformeFinal.cs",
+              "RelativeToolTip": "Model\\InformeFinal.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T16:50:53.089Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

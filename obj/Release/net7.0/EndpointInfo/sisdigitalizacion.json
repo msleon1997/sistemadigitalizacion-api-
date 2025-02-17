@@ -1,0 +1,3011 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "sisdigitalizacion",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/ActaCompromiso": {
+      "get": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ActaCompromiso/{id}": {
+      "get": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActaCompromiso"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ActaCompromiso/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "ActaCompromiso"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ActividadesPracticas": {
+      "get": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ActividadesPracticas/{id}": {
+      "get": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ActividadesPracticas"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/ActividadesPracticas/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "ActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CronoActividades": {
+      "get": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CronoActividades/{id}": {
+      "get": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CronoActividades"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CronoActividades/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "CronoActividades"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CumplimientoHoras": {
+      "get": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CumplimientoHoras/{id}": {
+      "get": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CumplimientoHoras"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/CumplimientoHoras/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "CumplimientoHoras"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionFinalCertificado": {
+      "get": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionFinalCertificado/{id}": {
+      "get": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionFinalCertificado"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionFinalCertificado/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "EvaluacionFinalCertificado"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionPractica": {
+      "get": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionPractica/{id}": {
+      "get": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EvaluacionPractica"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/EvaluacionPractica/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "EvaluacionPractica"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeActividadesPracticas": {
+      "get": {
+        "tags": [
+          "InformeActividadesPracticas"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeActividadesPracticas/{id}": {
+      "get": {
+        "tags": [
+          "InformeActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeActividadesPracticas/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "InformeActividadesPracticas"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeFinal": {
+      "get": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeFinal/{id}": {
+      "get": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeFinal"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeFinal/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "InformeFinal"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeTutorias": {
+      "get": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeTutorias/{id}": {
+      "get": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InformeTutorias"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/InformeTutorias/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "InformeTutorias"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Matriculacion": {
+      "get": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Matriculacion/{id}": {
+      "get": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Matriculacion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Matriculacion/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "Matriculacion"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/oficioDireccionCarrera": {
+      "get": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/oficioDireccionCarrera/{id}": {
+      "get": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OficioDireccionCarrera"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/oficioDireccionCarrera/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "oficioDireccionCarrera"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Planificacion": {
+      "get": {
+        "tags": [
+          "Planificacion"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Planificacion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Planificacion/{id}": {
+      "get": {
+        "tags": [
+          "Planificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Planificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Planificacion"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Planificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Planificacion/detailsByUser/{users_id}": {
+      "get": {
+        "tags": [
+          "Planificacion"
+        ],
+        "parameters": [
+          {
+            "name": "users_id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Planificacion/getDetailsWithMatriculacion/{id}": {
+      "get": {
+        "tags": [
+          "Planificacion"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "style": "simple",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ActaCompromiso": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "acta_NombresEstudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "acta_Carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "acta_UnidadAcademica": {
+            "type": "string",
+            "nullable": true
+          },
+          "acta_NombreEmpresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ActividadesPracticas": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "app_Empresa_Institucion": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Direccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Telefono": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Area_dep_proyect": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Asignatura_Catedra": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Tutor_ext": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Cargo": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Convenio": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Fecha_firma_convenio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "app_Fecha_termino_convenio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "app_Nom_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Cedula_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Celular_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Email_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Nombre_doc": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Cedula_doc": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Email_doc": {
+            "type": "string",
+            "nullable": true
+          },
+          "app_Fecha_ini": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "app_Fecha_fin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CronoActividades": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cA_Estudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_Actividad": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_Tarea": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_1raSemana": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA1raSem_Lunes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA1raSem_Martes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA1raSem_Miercoles": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA1raSem_Jueves": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_2raSemana": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA2raSem_Lunes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA2raSem_Martes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA2raSem_Miercoles": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA2raSem_Jueves": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_3raSemana": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA3raSem_Lunes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA3raSem_Martes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA3raSem_Miercoles": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA3raSem_Jueves": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA_4raSemana": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA4taSem_Lunes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA4taSem_Martes": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA4taSem_Miercoles": {
+            "type": "string",
+            "nullable": true
+          },
+          "cA4taSem_Jueves": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CumplimientoHoras": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empresa_institucion_proyecto": {
+            "type": "string",
+            "nullable": true
+          },
+          "docente_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "tutor_Externo": {
+            "type": "string",
+            "nullable": true
+          },
+          "estudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Entrada": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Salida": {
+            "type": "string",
+            "nullable": true
+          },
+          "actividades_Realizadas": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluacionFinalCertificado": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nom_director_carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "nom_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "num_cedula": {
+            "type": "string",
+            "nullable": true
+          },
+          "area_desarrollo": {
+            "type": "string",
+            "nullable": true
+          },
+          "duracion_horas": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_inicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fecha_fin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "representante_empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_nombre": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_ciclo": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "acPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hdPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal3": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aaPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal4": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "total": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "observaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "recomendaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaRegistro": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "nombre_Tutor_empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre_empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "logo_empresa": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "EvaluacionPractica": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empresa_institucion_proyecto": {
+            "type": "string",
+            "nullable": true
+          },
+          "tipo_Practica": {
+            "type": "string",
+            "nullable": true
+          },
+          "representante_legal": {
+            "type": "string",
+            "nullable": true
+          },
+          "tutor_Empresarial": {
+            "type": "string",
+            "nullable": true
+          },
+          "area_Departamento": {
+            "type": "string",
+            "nullable": true
+          },
+          "docente": {
+            "type": "string",
+            "nullable": true
+          },
+          "estudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_Inicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fecha_Supervicion": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hora_Asistencia": {
+            "type": "string",
+            "nullable": true
+          },
+          "hora_Supervision": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcaPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal1": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "acPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "acPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal2": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "hdPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "hdPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal3": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "aaPregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "aaPregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "subtotal4": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "total": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "observaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "rcomendaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "fechaRegistro": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InformeFinal": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "empresa_Institucion_Proyecto": {
+            "type": "string",
+            "nullable": true
+          },
+          "tutor_externo": {
+            "type": "string",
+            "nullable": true
+          },
+          "estudiante_grupo": {
+            "type": "string",
+            "nullable": true
+          },
+          "docente_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodo_practicas": {
+            "type": "string",
+            "nullable": true
+          },
+          "introduccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "obj_general": {
+            "type": "string",
+            "nullable": true
+          },
+          "obj_especifico": {
+            "type": "string",
+            "nullable": true
+          },
+          "justificacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "antecedentes": {
+            "type": "string",
+            "nullable": true
+          },
+          "mision_inst": {
+            "type": "string",
+            "nullable": true
+          },
+          "vision_inst": {
+            "type": "string",
+            "nullable": true
+          },
+          "obj_inst": {
+            "type": "string",
+            "nullable": true
+          },
+          "valores_inst": {
+            "type": "string",
+            "nullable": true
+          },
+          "bene_directos": {
+            "type": "string",
+            "nullable": true
+          },
+          "bene_indirectos": {
+            "type": "string",
+            "nullable": true
+          },
+          "rA_asignatura": {
+            "type": "string",
+            "nullable": true
+          },
+          "rA_resultado_aprendizaje": {
+            "type": "string",
+            "nullable": true
+          },
+          "rA_perfil_egreso": {
+            "type": "string",
+            "nullable": true
+          },
+          "evaluacion_impacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "detalle_actividades": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_estudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta1": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta2": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta3": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta4": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta5": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta6": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta7": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta8": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta9": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta10": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta11": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta12": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta13": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta14": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta15": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta16": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta17": {
+            "type": "string",
+            "nullable": true
+          },
+          "autoevL_pregunta18": {
+            "type": "string",
+            "nullable": true
+          },
+          "conclusiones": {
+            "type": "string",
+            "nullable": true
+          },
+          "recomendaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "biografia": {
+            "type": "string",
+            "nullable": true
+          },
+          "anexos": {
+            "type": "string",
+            "nullable": true
+          },
+          "aprobaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planificacion_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "InformeTutorias": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "docente_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "docente_tutor_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "empresa_proyecto": {
+            "type": "string",
+            "nullable": true
+          },
+          "periodo_practicas": {
+            "type": "string",
+            "nullable": true
+          },
+          "carrera_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "area_desarrollo": {
+            "type": "string",
+            "nullable": true
+          },
+          "director_carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_inicio": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fecha_fin": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "est_cedula": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_apellidos": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_nombres": {
+            "type": "string",
+            "nullable": true
+          },
+          "est_ciclo": {
+            "type": "string",
+            "nullable": true
+          },
+          "introduccion": {
+            "type": "string",
+            "nullable": true
+          },
+          "descripcion_actividades": {
+            "type": "string",
+            "nullable": true
+          },
+          "conclusion": {
+            "type": "string",
+            "nullable": true
+          },
+          "observaciones": {
+            "type": "string",
+            "nullable": true
+          },
+          "anexos": {
+            "type": "string",
+            "nullable": true
+          },
+          "unidad_academica": {
+            "type": "string",
+            "nullable": true
+          },
+          "componente_tematico": {
+            "type": "string",
+            "nullable": true
+          },
+          "dia": {
+            "type": "string",
+            "nullable": true
+          },
+          "mes": {
+            "type": "string",
+            "nullable": true
+          },
+          "ano": {
+            "type": "string",
+            "nullable": true
+          },
+          "tema_consulta": {
+            "type": "string",
+            "nullable": true
+          },
+          "rT_Ciclo": {
+            "type": "string",
+            "nullable": true
+          },
+          "modalidad": {
+            "type": "string",
+            "nullable": true
+          },
+          "rT_Estudiante": {
+            "type": "string",
+            "nullable": true
+          },
+          "rT_Cedula_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "responsable_docente_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "responsable_ptt": {
+            "type": "string",
+            "nullable": true
+          },
+          "responsable_dic_carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "accion_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "accion_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "accion_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha_aprovacion1": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fecha_aprovacion2": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "fecha_aprovacion3": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "firma_1": {
+            "type": "string",
+            "nullable": true
+          },
+          "firma_2": {
+            "type": "string",
+            "nullable": true
+          },
+          "firma_3": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "planificacion_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Matriculacion": {
+        "required": [
+          "area",
+          "carrera",
+          "cedula_est",
+          "ciclo",
+          "docente_tutor",
+          "email_est",
+          "firstname_est",
+          "lastname_est",
+          "nombre_institucion",
+          "nombre_proyecto",
+          "propuesta",
+          "telefono",
+          "users_id"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cedula_est": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "firstname_est": {
+            "maxLength": 45,
+            "minLength": 0,
+            "type": "string"
+          },
+          "lastname_est": {
+            "maxLength": 45,
+            "minLength": 0,
+            "type": "string"
+          },
+          "carrera": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "area": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "ciclo": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "nombre_proyecto": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "email_est": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string",
+            "format": "email"
+          },
+          "telefono": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "docente_tutor": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "nombre_institucion": {
+            "maxLength": 50,
+            "minLength": 0,
+            "type": "string"
+          },
+          "propuesta": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OficioDireccionCarrera": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odc_fecha": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "odc_numero": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odc_repre_legal": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_nom_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_cedula_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_ciclo_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_unidad_acade": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_carrera_est": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_area": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_num_horas": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "odc_director_carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_nombre_per_aut": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_per_aut_cargo": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_autorizacion": {
+            "type": "string",
+            "nullable": true
+          },
+          "odc_nombre_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Planificacion": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tP_Carrera": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Area": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Docente": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Ciclo": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Categra_Int": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Proyecto_Integrador": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Proyecto_Serv_Com": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Horas_Pract": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tP_Num_Est_Pract": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tP_Act_Realizar": {
+            "type": "string",
+            "nullable": true
+          },
+          "estudianteLider": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Nomina_est_asig": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Docente_tutor": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Inst_Emp": {
+            "type": "string",
+            "nullable": true
+          },
+          "tP_Propuesta": {
+            "type": "string",
+            "nullable": true
+          },
+          "users_id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "matriculacion_id": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

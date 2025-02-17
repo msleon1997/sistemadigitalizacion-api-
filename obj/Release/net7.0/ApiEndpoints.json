@@ -1,0 +1,1105 @@
+[
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "GetAllActaCompromiso",
+    "RelativePath": "api/ActaCompromiso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "CreateActaCompromiso",
+    "RelativePath": "api/ActaCompromiso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actaCompromiso",
+        "Type": "sisdigitalizacion.Model.ActaCompromiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "GetDetails",
+    "RelativePath": "api/ActaCompromiso/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "UpdateActaCompromiso",
+    "RelativePath": "api/ActaCompromiso/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actaCompromiso",
+        "Type": "sisdigitalizacion.Model.ActaCompromiso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "EliminarActaCompromiso",
+    "RelativePath": "api/ActaCompromiso/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActaCompromisoController",
+    "Method": "GetActaCompromisoDetailsByUser",
+    "RelativePath": "api/ActaCompromiso/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "GetAllActividadesPracticas",
+    "RelativePath": "api/ActividadesPracticas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "CreateActividadesPracticas",
+    "RelativePath": "api/ActividadesPracticas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "actividadesPracticas",
+        "Type": "sisdigitalizacion.Model.ActividadesPracticas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "GetDetails",
+    "RelativePath": "api/ActividadesPracticas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "UpdateActividadesPracticas",
+    "RelativePath": "api/ActividadesPracticas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actividadesPracticas",
+        "Type": "sisdigitalizacion.Model.ActividadesPracticas",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "EliminarActividadesPracticas",
+    "RelativePath": "api/ActividadesPracticas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.ActividadesPracticasController",
+    "Method": "GetActividadesPracticasDetailsByUser",
+    "RelativePath": "api/ActividadesPracticas/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "GetAllCronoActividades",
+    "RelativePath": "api/CronoActividades",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "CreateCronoActividades",
+    "RelativePath": "api/CronoActividades",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cronoActividades",
+        "Type": "sisdigitalizacion.Model.CronoActividades",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "GetDetails",
+    "RelativePath": "api/CronoActividades/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "UpdateCronoActividades",
+    "RelativePath": "api/CronoActividades/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cronoActividades",
+        "Type": "sisdigitalizacion.Model.CronoActividades",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "EliminarCronoActividades",
+    "RelativePath": "api/CronoActividades/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CronoActividadesController",
+    "Method": "GetCronoActividadesDetailsByUser",
+    "RelativePath": "api/CronoActividades/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "GetAllCumplimientoHoras",
+    "RelativePath": "api/CumplimientoHoras",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "CreateCumplimientoHoras",
+    "RelativePath": "api/CumplimientoHoras",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cumplimientoHoras",
+        "Type": "sisdigitalizacion.Model.CumplimientoHoras",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "GetDetails",
+    "RelativePath": "api/CumplimientoHoras/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "UpdateCumplimientoHoras",
+    "RelativePath": "api/CumplimientoHoras/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cumplimientoHoras",
+        "Type": "sisdigitalizacion.Model.CumplimientoHoras",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "EliminarCumplimientoHoras",
+    "RelativePath": "api/CumplimientoHoras/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.CumplimientoHorasController",
+    "Method": "GetCumplimientoHorasDetailsByUser",
+    "RelativePath": "api/CumplimientoHoras/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "GetAllEvaluacionFinalCertificado",
+    "RelativePath": "api/EvaluacionFinalCertificado",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "CreateEvaluacionFinalCertificado",
+    "RelativePath": "api/EvaluacionFinalCertificado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluacionFinalCertificado",
+        "Type": "sisdigitalizacion.Model.EvaluacionFinalCertificado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "GetDetails",
+    "RelativePath": "api/EvaluacionFinalCertificado/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "UpdateEvaluacionFinalCertificado",
+    "RelativePath": "api/EvaluacionFinalCertificado/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "evaluacionFinalCertificado",
+        "Type": "sisdigitalizacion.Model.EvaluacionFinalCertificado",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "EliminarEvaluacionPractica",
+    "RelativePath": "api/EvaluacionFinalCertificado/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionFinalCertificadoController",
+    "Method": "GetEvaluacionFinalCertificadoDetailsByUser",
+    "RelativePath": "api/EvaluacionFinalCertificado/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "GetAllEvaluacionPractica",
+    "RelativePath": "api/EvaluacionPractica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "CreateEvaluacionPractica",
+    "RelativePath": "api/EvaluacionPractica",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evaluacionPractica",
+        "Type": "sisdigitalizacion.Model.EvaluacionPractica",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "GetDetails",
+    "RelativePath": "api/EvaluacionPractica/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "UpdateEvaluacionPractica",
+    "RelativePath": "api/EvaluacionPractica/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "evaluacionPractica",
+        "Type": "sisdigitalizacion.Model.EvaluacionPractica",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "EliminarEvaluacionPractica",
+    "RelativePath": "api/EvaluacionPractica/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.EvaluacionPracticaController",
+    "Method": "GetEvaluacionPracticaDetailsByUser",
+    "RelativePath": "api/EvaluacionPractica/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeActividadesPracticasController",
+    "Method": "GetAllInformeActividadesPracticas",
+    "RelativePath": "api/InformeActividadesPracticas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeActividadesPracticasController",
+    "Method": "GetDetails",
+    "RelativePath": "api/InformeActividadesPracticas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeActividadesPracticasController",
+    "Method": "GetInformeFinalDetailsByUser",
+    "RelativePath": "api/InformeActividadesPracticas/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "GetAllInformeFinal",
+    "RelativePath": "api/InformeFinal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "CreateInformeFinal",
+    "RelativePath": "api/InformeFinal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "informeFinal",
+        "Type": "sisdigitalizacion.Model.InformeFinal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "GetDetails",
+    "RelativePath": "api/InformeFinal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "UpdateInformeFinal",
+    "RelativePath": "api/InformeFinal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "informeFinal",
+        "Type": "sisdigitalizacion.Model.InformeFinal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "EliminarInformeFinal",
+    "RelativePath": "api/InformeFinal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeFinalController",
+    "Method": "GetInformeFinalDetailsByUser",
+    "RelativePath": "api/InformeFinal/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "GetAllInformeTutorias",
+    "RelativePath": "api/InformeTutorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "CreateInformeTutorias",
+    "RelativePath": "api/InformeTutorias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "informeTutorias",
+        "Type": "sisdigitalizacion.Model.InformeTutorias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "GetDetails",
+    "RelativePath": "api/InformeTutorias/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "UpdateInformeTutorias",
+    "RelativePath": "api/InformeTutorias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "informeTutorias",
+        "Type": "sisdigitalizacion.Model.InformeTutorias",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "EliminarInformeTutorias",
+    "RelativePath": "api/InformeTutorias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.InformeTutoriasController",
+    "Method": "GetInformeTutoriasDetailsByUser",
+    "RelativePath": "api/InformeTutorias/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "GetAllMatriculacion",
+    "RelativePath": "api/Matriculacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "CreateMatriculacion",
+    "RelativePath": "api/Matriculacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "matriculacion",
+        "Type": "sisdigitalizacion.Model.Matriculacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "GetMatriculacionDetails",
+    "RelativePath": "api/Matriculacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "UpdateMatriculacion",
+    "RelativePath": "api/Matriculacion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "matriculacion",
+        "Type": "sisdigitalizacion.Model.Matriculacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "EliminarMatriculacion",
+    "RelativePath": "api/Matriculacion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.MatriculacionController",
+    "Method": "GetMatriculacionDetailsByUser",
+    "RelativePath": "api/Matriculacion/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "GetAllGetAllOficioDireccionCarrera",
+    "RelativePath": "api/oficioDireccionCarrera",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "CreateOficioDireccionCarrera",
+    "RelativePath": "api/oficioDireccionCarrera",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "oficioDireccionCarrera",
+        "Type": "sisdigitalizacion.Model.OficioDireccionCarrera",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "GetOficioDireccionCarreraDetails",
+    "RelativePath": "api/oficioDireccionCarrera/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "UpdateOficioDireccionCarrera",
+    "RelativePath": "api/oficioDireccionCarrera/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "oficioDireccionCarrera",
+        "Type": "sisdigitalizacion.Model.OficioDireccionCarrera",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "EliminarOficioDireccionCarrera",
+    "RelativePath": "api/oficioDireccionCarrera/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.oficioDireccionCarreraController",
+    "Method": "GetOficioDireccionCarreraDetailsByUser",
+    "RelativePath": "api/oficioDireccionCarrera/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "GetAllPlanificaciones",
+    "RelativePath": "api/Planificacion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "CreatePlanificacion",
+    "RelativePath": "api/Planificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planificacion",
+        "Type": "sisdigitalizacion.Model.Planificacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "GetPlanificacionDetails",
+    "RelativePath": "api/Planificacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "UpdatePlanificacion",
+    "RelativePath": "api/Planificacion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "planificacion",
+        "Type": "sisdigitalizacion.Model.Planificacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "EliminarPlanificacion",
+    "RelativePath": "api/Planificacion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "GetPlanificacionDetailsByUser",
+    "RelativePath": "api/Planificacion/detailsByUser/{users_id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users_id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "sisdigitalizacion.Controllers.PlanificacionController",
+    "Method": "GetDetailsWithMatriculacion",
+    "RelativePath": "api/Planificacion/getDetailsWithMatriculacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
